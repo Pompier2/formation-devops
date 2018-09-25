@@ -1,11 +1,11 @@
 {
-  "name": "formation-devops",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha tests"
-  },
+"name": "formation-devops",
+"version": "1.0.0",
+"description": "",
+"scripts": {
+"test": "mocha tests/demo.test.js",
+"start": "node src/server.js"
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pompier2/formation-devops.git"
