@@ -4,3 +4,8 @@ language: node_js
 node_js:
      - "node"
      - "7"    
+deploy:
+  provider: script
+  script: bash scripts/push.sh
+  on:
+    branch: master
